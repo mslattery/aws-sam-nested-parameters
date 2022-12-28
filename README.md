@@ -84,7 +84,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Michael Slattery - [@Slats2U](https://twitter.com/@Slats2U)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/mslattery/aws-sam-nested-parameters](https://github.com/mslattery/aws-sam-nested-parameters)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
