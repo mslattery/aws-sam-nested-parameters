@@ -1,0 +1,14 @@
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  applicationOne:
+    Type: AWS::Serverless::Application
+    Properties:
+      Location: ./app-one/template.yaml
+  applicationtwo:
+    Type: AWS::Serverless::Application
+    Properties:
+      Location: ./app-two/template.yaml
+      Parameters:
+        AppOneHelloWorldFunctionARN: !GetAtt applicationOne.Outputs.HelloWorldFunction
+    DependsOn: applicationOne
